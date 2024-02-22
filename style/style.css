@@ -46,14 +46,15 @@ body{
     animation-name: mianimacion;
     animation-duration: 5s;
     animation-delay: 1s;
+    animation-iteration-count: infinite;
     position: relative;
     border-radius: 14px;
     
 }
 
 @keyframes mianimacion {                                /*---(2)key frame----*/
-    0%  {background:#17537a; left: 0; }
-    25% {background: #63a6d2; left: 300px;}
+    0%  {background:#17537a; left: -300px; }
+    25% {background: #63a6d2; left: 0;}
     100% {background: #42457c; width: 700px;}
 }
 
